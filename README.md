@@ -6,7 +6,8 @@ que les services informatiques du canton de Genève utilisent.
 Aucun de ces logiciels n'a été développé à l'État - il ne s'agit ici que
 d'utilisation - même si l'État participe occasionnellement par des contributions.
 
-Cette liste est incomplète, mais en constant enrichissement.
+Cette liste est incomplète, mais en constant enrichissement. Pour éditer cette table, vous pouvez utiliser [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables).
+
 
 | Nom                                                         | Type                           | Description                                                              | Éditeur                                                                          |  Licence (SPDX id)                                                    | Équipes installatrices  | Solutions alternatives (1) | Langage de programmation | Mots-clés                                      |
 |:------------------------------------------------------------|:-------------------------------|:-------------------------------------------------------------------------|:---------------------------------------------------------------------------------|:----------------------------------------------------------------------|:------------------------|:---------------------------|:------------------------:|:-----------------------------------------------|
@@ -25,6 +26,7 @@ Cette liste est incomplète, mais en constant enrichissement.
 |                                                             |                                |                                                                          |                                                                                  |                                                                       |                         |                            |                          |                                                |
 
 
-(1) Pas nécessairement libres
-
+Notes :\
+(1) Pas nécessairement libres\
 (2) Aussi en édition Ultimate, payante
+
