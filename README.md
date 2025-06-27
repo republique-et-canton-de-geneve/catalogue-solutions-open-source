@@ -7,19 +7,3 @@ est présentée
 <div align="center">
     <img src="./src/example2.svg" width="400" height="400" alt="css-in-readme">
 </div>
-
-<table>
-  <tr>
-    <td>
-      <pre>
-      **Hello**,
-      _world_.
-      </pre>
-    </td>
-   <td>
-     Bonjour
-    <em>le monde</em>
-   </td>
-  </tr>
-</table>
-
