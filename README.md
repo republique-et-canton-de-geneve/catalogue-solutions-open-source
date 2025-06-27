@@ -5,13 +5,23 @@ est présentée
 [dans ce tableau](./src/catalogue.html).
 
 
-<table><tr><td>
-<pre>
-**Hello**,
+em {
+    font-style: normal;
+    color: #e80300;
+}
 
-_world_.
-</pre>
-</td></tr></table>
+<table>
+  <tr>
+    <td>
+      <pre>
+      **Hello**,
+      _world_.
+      </pre>
+    </td>
+   <td>
+     Bonjour
+    <em>le monde</em>
+   </td>
+  </tr>
+</table>
 
-
-https://github.github.com/gfm/#html-blocks
