@@ -5,13 +5,8 @@ est présentée
 [dans ce tableau](./src/catalogue.html).
 
 <div align="center">
-    <img src="./src/example.svg" width="400" height="400" alt="css-in-readme">
+    <img src="./src/example2.svg" width="400" height="400" alt="css-in-readme">
 </div>
-
-em {
-    font-style: normal;
-    color: #e80300;
-}
 
 <table>
   <tr>
