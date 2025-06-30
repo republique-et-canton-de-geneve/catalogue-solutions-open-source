@@ -4,6 +4,311 @@ La liste (en construction) des solutions open source utilisées par l'Etat
 est présentée
 [dans ce tableau](./src/catalogue.html).
 
+<div xmlns="http://www.w3.org/1999/xhtml">
+<style>
+h1 {
+font-size: 3rem;
+line-height: 100%;
+margin: 0;
+}
+
+.fix-height {
+line-height: 3rem;
+}
+
+h2 {
+color: #e80300;
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+}
+
+h2 a, h2 a:hover, h2 a:visited, h2 a:focus {
+color: #e80300;
+}
+
+.header {
+color: white;
+background-color: #717171;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+.item {
+height: 300px;
+width: 350px;
+}
+
+.image {
+height: 200px;
+width: 200px;
+}
+.header a {
+color: white;
+}
+
+.no-padding {
+padding: 0;
+}
+
+em {
+font-style: normal;
+color: #e80300;
+}
+
+.btn {
+background-color: #e80300;
+}
+
+.box-container {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.box-container:first-of-type {
+padding-left: 0 !important;
+}
+
+.box-container:last-of-type {
+padding-right: 0 !important;
+}
+
+.box {
+-webkit-box-shadow: 1px 2px 8px -1px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 1px 2px 8px -1px rgba(0, 0, 0, 0.75);
+box-shadow: 1px 2px 8px -1px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 990px) {
+.box {
+height: auto !important;
+margin-bottom: 2rem;
+}
+
+    .email-align {
+        text-align: left !important;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 990px) {
+.is-table-row {
+display: table;
+width: 100%;
+margin-right: 0;
+margin-left: 0;
+border-spacing: 15px;
+}
+
+    .table-container {
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    .is-table-row::before, .is-table-row::after {
+        display: none;
+    }
+
+}
+
+.button-bar {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.email-align, .lang-align {
+text-align: right;
+}
+
+.margin-top-large {
+margin-top: 30px;
+}
+
+.margin-bottom-large {
+margin-bottom: 30px;
+}
+
+.repo-image {
+text-align: center;
+}
+
+.repo-image img {
+max-width: 100%;
+}
+
+.repo-box {
+padding: 1px 10px 10px;
+}
+table img {
+width: 68px;
+}
+td, th {
+border: 1px solid rgb(160 160 160);
+padding: 8px 10px;
+}
+
+th[scope="col"] {
+background-color: #505050;
+color: #fff;
+}
+
+th[scope="row"] {
+background-color: #d6ecd4;
+}
+
+td {
+text-align: center;
+}
+
+tr:nth-of-type(even) {
+background-color: #eee;
+}
+thead {
+background-color: #c9c9c9;
+}
+
+.fixed-size {
+width: 300px;
+height: 253px;
+object-fit: cover;/
+}
+
+iframe {
+margin: 0%;
+width: 1170px;
+height: 3890.69px;
+
+}
+</style>
+
+<div class="row">
+<div class="box col-xs-12">
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Type</th>
+<th>Description</th>
+<th>Éditeur</th>
+<th>Licence
+</th>
+<th>Équipes installatrices</th>
+<th>Contributions de l'État</th>
+<th>Solutions alternatives (1)</th>
+<th>Langage de programmation</th>
+<th>Mots-clés</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://www.7-zip.org/" rel="nofollow">7-Zip</a>
+<a target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/7-Zip.png">
+<img src="./images/7-Zip.png" alt="7-zip logo" style="max-width: 100%;">
+</a>
+</td>
+<td>Archivage</td>
+<td>Logiciel d'archivage et compression de données</td>
+<td><a href="https://www.7-zip.org/" rel="nofollow">Igor Pavlov</a></td>
+<td><a href="https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                                rel="nofollow">LGPL-2.1-or-later</a>
+</td>
+<td>Toutes</td>
+<td align="center">-</td>
+<td>WinZIP, WinRAR...</td>
+<td>C, C++, Assembleur</td>
+<td>"archivage" "compression" "zip" "rar"</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.ansible.com/" rel="nofollow">Ansible</a>
+<a target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/ansible.jpg">
+<img src="./images/ansible.jpg" alt="Ansible logo" style="max-width: 100%;"/>
+</a>
+</td>
+<td>Plateforme</td>
+<td>Automatisation</td>
+<td><a href="https://www.ansible.com/" rel="nofollow">Redhat Ansible</a></td>
+<td><a href="https://spdx.org/licenses/GPL-3.0-only.html" rel="nofollow">GPL-3.0-only</a>
+</td>
+<td>Infrastructure</td>
+<td align="center">-</td>
+<td>OpenTofu, Terraform</td>
+<td>Python, JavaScript, Shell, Jinja, Dockerfile</td>
+<td>"plateforme" "automatisation"</td>
+</tr>
+<tr>
+<td>
+<a href="https://techradar.aoe.com/" rel="nofollow">AOE Tech Radar</a>
+<a target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/aoe.png"><img
+                                    src="./images/aoe.png" alt="AOE logo" style="max-width: 100%;"/></a>
+</td>
+<td>Plateforme</td>
+<td>Tech Radar</td>
+<td><a href="https://www.aoe.com/" rel="nofollow">AOE PEople</a></td>
+<td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+<td>Développement</td>
+<td align="center">-</td>
+<td></td>
+<td>JavaScript, CSS</td>
+<td>"plateforme" "technology" "radar"</td>
+</tr>
+<tr>
+<td><a href="https://www.cypress.io/about-us">Cypress</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/cypress.png"><img
+                                    src="./images/cypress.png" alt="Cypress logo" style="max-width: 100%;"/></a>
+</td>
+<td>Tests automatisés</td>
+<td>Outil de tests automatisés d'applications Web</td>
+<td><a href="https://www.cypress.io/about-us" rel="nofollow">Cypress</a></td>
+<td><a href="https://spdx.org/licenses/MIT.html" rel="nofollow">MIT</a></td>
+<td>Développement</td>
+<td align="center">-</td>
+<td>Selenium, SoapUI, TestProject</td>
+<td>JavaScript</td>
+<td>"test" "automatisation"</td>
+</tr>
+<tr>
+<td><a href="https://github.com/decidim/">Decidim</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/decidim.png"><img
+                                    src="./images/decidim.png" alt="Decidim logo" style="max-width: 100%;"/></a>
+</td>
+<td>Plateforme</td>
+<td>Plateforme numérique pour la participation citoyenne</td>
+<td><a href="https://decidim.org/" rel="nofollow">Decidim Free Software Association</a></td>
+<td><a href="https://spdx.org/licenses/AGPL-3.0-only.html" rel="nofollow">AGPL-3.0-only</a>
+</td>
+<td>participer.ge.ch</td>
+<td align="center">-</td>
+<td>Konveio, CitizenLab</td>
+<td>Ruby</td>
+<td>"plateforme" "participation" "citoyen"</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+        </div>
+
 <div>
     <img src="./src/example2.svg" width="100%" height="100%" alt="css-in-readme">
 </div>
