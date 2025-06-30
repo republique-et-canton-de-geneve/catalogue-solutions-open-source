@@ -2,11 +2,759 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-            h1 {
-                color: red;
-            }
+h1 {
+    font-size: 3rem;
+    line-height: 100%;
+    margin: 0;
+}
+
+.fix-height {
+    line-height: 3rem;
+}
+
+h2 {
+    color: #e80300;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2 a, h2 a:hover, h2 a:visited, h2 a:focus {
+    color: #e80300;
+}
+
+.header {
+    color: white;
+    background-color: #717171;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.item {
+	height: 300px;
+	width: 350px;
+}
+
+.image {
+	height: 200px;
+	width: 200px;
+}
+	
+.header a {
+    color: white;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+em {
+    font-style: normal;
+    color: #e80300;
+}
+
+.btn {
+    background-color: #e80300;
+}
+
+.box-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-container:first-of-type {
+    padding-left: 0 !important;
+}
+
+.box-container:last-of-type {
+    padding-right: 0 !important;
+}
+
+.box {
+    -webkit-box-shadow: 1px 2px 8px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 8px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 2px 8px -1px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 990px) {
+    .box {
+        height: auto !important;
+        margin-bottom: 2rem;
+    }
+
+    .email-align {
+        text-align: left !important;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .is-table-row {
+        display: table;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        border-spacing: 15px;
+    }
+
+    .table-container {
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    .is-table-row::before, .is-table-row::after {
+        display: none;
+    }
+}
+
+.button-bar {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email-align, .lang-align {
+    text-align: right;
+}
+
+.margin-top-large {
+    margin-top: 30px;
+}
+
+.margin-bottom-large {
+    margin-bottom: 30px;
+}
+
+.repo-image {
+    text-align: center;
+}
+
+.repo-image img {
+    max-width: 100%;
+}
+
+.repo-box {
+    padding: 1px 10px 10px;
+}
+table img {
+    width: 68px;
+}
+td, th {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+th[scope="col"] {
+  background-color: #505050;
+  color: #fff;
+}
+
+th[scope="row"] {
+  background-color: #d6ecd4;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-of-type(even) {
+  background-color: #eee;
+}
+thead {
+      background-color: #c9c9c9;
+}
+
+.fixed-size {
+      width: 300px;
+  height: 253px;
+  object-fit: cover;/
+}
+
+iframe {
+    margin: 0%;
+    width: 1170px;
+    height: 3890.69px;
+    
+}
             </style>
-            <h1>HELLO WORLD!</h1>
+             <div class="row">
+        <div class="box col-xs-12">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Éditeur</th>
+                        <th>Licence
+                            <img src="./images/spnx.svg" alt="">
+                        </th>
+                        <th>Équipes installatrices</th>
+                        <th>Contributions de l'État</th>
+                        <th>Solutions alternatives (1)</th>
+                        <th>Langage de programmation</th>
+                        <th>Mots-clés</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://www.7-zip.org/" rel="nofollow">7-Zip</a>
+                            <a target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/7-Zip.png">
+                                <img src="./images/7-Zip.png" alt="7-zip logo" style="max-width: 100%;">
+                            </a>
+                        </td>
+                        <td>Archivage</td>
+                        <td>Logiciel d'archivage et compression de données</td>
+                        <td><a href="https://www.7-zip.org/" rel="nofollow">Igor Pavlov</a></td>
+                        <td><a href="https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                                rel="nofollow">LGPL-2.1-or-later</a>
+                        </td>
+                        <td>Toutes</td>
+                        <td align="center">-</td>
+                        <td>WinZIP, WinRAR...</td>
+                        <td>C, C++, Assembleur</td>
+                        <td>"archivage" "compression" "zip" "rar"</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.ansible.com/" rel="nofollow">Ansible</a>
+                            <a target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/ansible.jpg">
+                                <img src="./images/ansible.jpg" alt="Ansible logo" style="max-width: 100%;">
+                            </a>
+                        </td>
+                        <td>Plateforme</td>
+                        <td>Automatisation</td>
+                        <td><a href="https://www.ansible.com/" rel="nofollow">Redhat Ansible</a></td>
+                        <td><a href="https://spdx.org/licenses/GPL-3.0-only.html" rel="nofollow">GPL-3.0-only</a>
+                        </td>
+                        <td>Infrastructure</td>
+                        <td align="center">-</td>
+                        <td>OpenTofu, Terraform</td>
+                        <td>Python, JavaScript, Shell, Jinja, Dockerfile</td>
+                        <td>"plateforme" "automatisation"</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://techradar.aoe.com/" rel="nofollow">AOE Tech Radar</a>
+                            <a target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/aoe.png"><img
+                                    src="./images/aoe.png" alt="AOE logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Plateforme</td>
+                        <td>Tech Radar</td>
+                        <td><a href="https://www.aoe.com/" rel="nofollow">AOE PEople</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td></td>
+                        <td>JavaScript, CSS</td>
+                        <td>"plateforme" "technology" "radar"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.cypress.io/about-us">Cypress</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/cypress.png"><img
+                                    src="./images/cypress.png" alt="Cypress logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Tests automatisés</td>
+                        <td>Outil de tests automatisés d'applications Web</td>
+                        <td><a href="https://www.cypress.io/about-us" rel="nofollow">Cypress</a></td>
+                        <td><a href="https://spdx.org/licenses/MIT.html" rel="nofollow">MIT</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td>Selenium, SoapUI, TestProject</td>
+                        <td>JavaScript</td>
+                        <td>"test" "automatisation"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/decidim/">Decidim</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/decidim.png"><img
+                                    src="./images/decidim.png" alt="Decidim logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Plateforme</td>
+                        <td>Plateforme numérique pour la participation citoyenne</td>
+                        <td><a href="https://decidim.org/" rel="nofollow">Decidim Free Software Association</a></td>
+                        <td><a href="https://spdx.org/licenses/AGPL-3.0-only.html" rel="nofollow">AGPL-3.0-only</a>
+                        </td>
+                        <td>participer.ge.ch</td>
+                        <td align="center">-</td>
+                        <td>Konveio, CitizenLab</td>
+                        <td>Ruby</td>
+                        <td>"plateforme" "participation" "citoyen"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://eclipseide.org/" rel="nofollow">Eclipse</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/eclipse.png"><img
+                                    src="./images/eclipse.png" alt="eclipse logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Environnement de développement</td>
+                        <td>Outil de développement pour les logiciels en Java, JavaScript, Python, etc.</td>
+                        <td><a href="https://www.eclipse.org/" rel="nofollow">Eclipse Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/EPL-2.0.html" rel="nofollow">EPL-2.0</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td>IntelliJ, VSCode, NetBeans</td>
+                        <td>Java, C</td>
+                        <td>"ide" "environnement de développement" "java"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/bardsoftware/ganttproject">GanttProject</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/ganttproject.jpg"><img
+                                    src="./images/ganttproject.jpg" alt="GanttProject logo"
+                                    style="max-width: 100%;"></a></td>
+                        <td>Gestion de projet</td>
+                        <td>Outil de genstion de projets</td>
+                        <td><a href="https://www.ganttproject.biz/" rel="nofollow">Bard Software GanttProject</a>
+                        </td>
+                        <td><a href="https://spdx.org/licenses/GPL-3.0-only.html" rel="nofollow">GPL-3.0-only</a>
+                        </td>
+                        <td>Moyens de développement</td>
+                        <td align="center">-</td>
+                        <td>VI, GVIM, Emacs...</td>
+                        <td>C, C++, Python, HTML</td>
+                        <td>"editeur" "texte" "code"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/git-for-windows/">Git pour Windows</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/gwindows.png"><img
+                                    src="./images/gwindows.png" alt="git pour windows logo"
+                                    style="max-width: 100%;"></a></td>
+                        <td>Gestion de versions</td>
+                        <td>Logiciel de gestion de versions décentralisé</td>
+                        <td><a href="https://gitforwindows.org/" rel="nofollow">Git pour Windows</a></td>
+                        <td><a href="https://spdx.org/licenses/GPL-2.0-only.html" rel="nofollow">GPL-2.0-only</a>
+                        </td>
+                        <td>Métier</td>
+                        <td align="center">-</td>
+                        <td>Microsoft Project</td>
+                        <td>Java, Kotlin, CSS...</td>
+                        <td>"gestion de projet"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.gitlab.com" rel="nofollow">Gitlab</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/gitlab.png"><img
+                                    src="./images/gitlab.png" alt="gitlab logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Forge</td>
+                        <td>GitLab est un logiciel libre de forge basé sur git proposant les fonctionnalités de
+                            wiki, un système de suivi des bugs, l’intégration continue et la livraison continue.
+                        </td>
+                        <td><a href="https://www.gitlab.com" rel="nofollow">Gitlab</a></td>
+                        <td><a href="https://spdx.org/licenses/MIT.html" rel="nofollow">MIT</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td>Gitea, Harness OS</td>
+                        <td>Ruby</td>
+                        <td>"automatisation" "déploiement"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.gocd.org" rel="nofollow">GoCD</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/gocd.jpg"><img
+                                    src="./images/gocd.jpg" alt="GoCD logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Automatisation</td>
+                        <td>Serveur d'automatisation pour la production continue</td>
+                        <td><a href="https://www.thoughtworks.com" rel="nofollow">ThoughtWorks</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Intégration</td>
+                        <td align="center">-</td>
+                        <td>Jenkins X, ArgoCD</td>
+                        <td>Java, TypeScript</td>
+                        <td>"automatisation" "déploiement" "production"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://grafana.com" rel="nofollow">Grafana</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/grafana.png"><img
+                                    src="./images/grafana.png" alt="Grafana logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Surveillance</td>
+                        <td>Plateforme de représentation graphique de données statistiques</td>
+                        <td><a href="https://grafana.com" rel="nofollow">Grafana Labs</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Intégration</td>
+                        <td align="center">-</td>
+                        <td></td>
+                        <td>Go, TypeScript</td>
+                        <td>"surveillance" "statistiques"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.jetbrains.com/idea/" rel="nofollow">IntelliJ</a> (2) <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/intelij.svg"><img
+                                    src="./images/intelij.svg" alt="intelij logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Environnement de développement</td>
+                        <td>Outil de développement pour les logiciels en Java</td>
+                        <td><a href="https://fr.wikipedia.org/wiki/JetBrains" rel="nofollow">JetBrains</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td>Eclipse, VSCode, NetBeans</td>
+                        <td>Java</td>
+                        <td>"ide" "environnement de développement" "java"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://jmeter.apache.org/" rel="nofollow">JMeter</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/apache-jmeter.png"><img
+                                    src="./images/apache-jmeter.png" alt="jmeter logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Tests de performance</td>
+                        <td>Logiciel libre permettant d'effectuer des tests de performance d'applications et de
+                            serveurs selon différents protocoles ainsi que des tests fonctionnels</td>
+                        <td><a href="https://www.apache.org/" rel="nofollow">Apache Software Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Infrastructure</td>
+                        <td align="center">-</td>
+                        <td>Gatling, K6</td>
+                        <td>Groovy, Java</td>
+                        <td>"performance" "tests" "charge"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://kubernetes.io/" rel="nofollow">Kubernetes</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/kubernetes.jpg"><img
+                                    src="./images/kubernetes.jpg" alt="kubernetes logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Automatisation</td>
+                        <td>Plate-forme d'automatisation d'applications conteneurisées</td>
+                        <td><a href="https://google.com" rel="nofollow">Google</a> et <a href="https://www.cncf.io/"
+                                rel="nofollow">Cloud Native Computing Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Infrastructure</td>
+                        <td align="center">-</td>
+                        <td>Docker, Rancher</td>
+                        <td>Go</td>
+                        <td>"automatisation" "déploiement" "montée en charge" "conteneurs"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://mariadb.org/fr" rel="nofollow">MariaDB</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/mariadb.svg"><img
+                                    src="./images/mariadb.svg" alt="mariadb logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Base de données</td>
+                        <td>Base de données relationnelle</td>
+                        <td><a href="https://mariadb.org/fr" rel="nofollow">MariaDB Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/GPL-2.0-only.html" rel="nofollow">GPL-2.0-only</a>
+                        </td>
+                        <td>Bases de données</td>
+                        <td align="center">-</td>
+                        <td>PostgreSQL, Oracle</td>
+                        <td>C, C++, Perl</td>
+                        <td>"base de données" "relationnel"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://mariadb.org/fr" rel="nofollow">Maven</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/apache-maven.png"><img
+                                    src="./images/apache-maven.png" alt="maven logo" style="max-width: 100%;"></a></td>
+                        <td>Construction d'applications</td>
+                        <td>Gestion et automatisation de projets en Java</td>
+                        <td><a href="https://fr.wikipedia.org/wiki/Apache_Software_Foundation" rel="nofollow">Apache
+                                Software Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td>Ant, Gradle</td>
+                        <td>Java</td>
+                        <td>"construction" "dépendances"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://monokle.io/" rel="nofollow">Monokle</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/monokle.png"><img
+                                    src="./images/monokle.png" alt="Monokle logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Conteneurisation</td>
+                        <td>Logiciel de gestion des configurations Kubernetes</td>
+                        <td><a href="https://kubeshop.io/" rel="nofollow">Kubeshop</a></td>
+                        <td><a href="https://spdx.org/licenses/MIT.html" rel="nofollow">MIT</a></td>
+                        <td>Intégration</td>
+                        <td align="center">-</td>
+                        <td>Seabird, Kubermetic</td>
+                        <td>TypeScript</td>
+                        <td>"kubernetes" "configuration"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/notepad-plus-plus/">Notepad++</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/notepad.png"><img
+                                    src="./images/notepad.png" alt="Notepad++ logo" style="max-width: 100%;"></a></td>
+                        <td>Editeur de texte</td>
+                        <td>Editeur de texte, ou de code source utilisé par les développeurs</td>
+                        <td><a href="https://notepad-plus-plus.org/" rel="nofollow">Notepad++</a></td>
+                        <td><a href="https://spdx.org/licenses/GPL-3.0-only.html" rel="nofollow">GPL-3.0-only</a>
+                        </td>
+                        <td>Moyens de développement</td>
+                        <td align="center">-</td>
+                        <td>VI, GVIM, Emacs...</td>
+                        <td>C, C++, Python, HTML</td>
+                        <td>"editeur" "texte" "code"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://openjdk.org/" rel="nofollow">OpenJDK</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/openjdk.webp"><img
+                                    src="./images/openjdk.webp" alt="OpenJDK logo" style="max-width: 100%;"></a></td>
+                        <td>Langage de programmation</td>
+                        <td>Compilateur et machine d'exécution pour le langage de programmation Java</td>
+                        <td><a href="https://www.oracle.com/" rel="nofollow">Oracle</a>, principalement</td>
+                        <td><a href="https://spdx.org/licenses/GPL-2.0-only.html" rel="nofollow">GPL-2.0-only</a>
+                        </td>
+                        <td>Intégration</td>
+                        <td align="center">-</td>
+                        <td>.NET, PHP, node</td>
+                        <td>C, C++, Java</td>
+                        <td>"langage" "Java" "jvm" "machine virtuelle"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://podman-desktop.io" rel="nofollow">Podman Desktop</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/podman.svg"><img
+                                    src="./images/podman.svg" alt="Podman Desktop logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Conteneurisation</td>
+                        <td>Outil de gestion d'images et de conteneurs Docker</td>
+                        <td><a href="https://www.cncf.io" rel="nofollow">Cloud Native Computing Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td>Docker Desktop</td>
+                        <td>TypeScript</td>
+                        <td>"conteneur" "image" "docker"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.postgresql.org" rel="nofollow">PostgreSQL</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/postgresql.svg"><img
+                                    src="./images/postgresql.svg" alt="postgreSQL logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Base de données</td>
+                        <td>Base de données relationnelle</td>
+                        <td><a href="https://www.postgresql.org/developer/core" rel="nofollow">PostgreSQL Global
+                                Development Group</a></td>
+                        <td><a href="https://spdx.org/licenses/PostgreSQL.html" rel="nofollow">PostgreSQL</a></td>
+                        <td>Bases de données</td>
+                        <td align="center">-</td>
+                        <td>Oracle, MariaDB</td>
+                        <td>C</td>
+                        <td>"base de données" "relationnel"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://prometheus.io/" rel="nofollow">Prometheus</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/prometheus.png"><img
+                                    src="./images/prometheus.png" alt="Prometheus logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Surveillance</td>
+                        <td>Outil de surveillance d'applications et d'alerte</td>
+                        <td><a href="https://www.cncf.io/" rel="nofollow">Cloud Native Computing Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Infrastructure</td>
+                        <td align="center">-</td>
+                        <td></td>
+                        <td>Go</td>
+                        <td>"surveillance" "métriques" "alerte"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://python.org" rel="nofollow">Python</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/python.png"><img
+                                    src="./images/python.png" alt="Python logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Langage de programmation</td>
+                        <td>langage de programmation interprété, multiparadigme et multiplateformes</td>
+                        <td><a href="https://www.python.org/psf-landing/" rel="nofollow">Python Software
+                                Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/Python-2.0.html" rel="nofollow">Python-2.0</a>, <a
+                                href="https://www.python.org/download/releases/3.4.3/license" rel="nofollow">Python
+                                3.4.3</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td></td>
+                        <td>Python</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://qgis.org" rel="nofollow">QGIS</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/qgis.svg"><img
+                                    src="./images/qgis.svg" alt="QGIS logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Information géographique</td>
+                        <td>Système d'information géographique desktop</td>
+                        <td><a href="https://qgis.org/community/organisation/" rel="nofollow">Communauté QGIS</a>
+                        </td>
+                        <td><a href="https://spdx.org/licenses/GPL-2.0-only.html" rel="nofollow">GPL-2.0-only</a>
+                        </td>
+                        <td>Métier</td>
+                        <td align="center"><a href="https://github.com/qgis/QGIS/pull/60459"
+                                data-hovercard-type="pull_request"
+                                data-hovercard-url="/qgis/QGIS/pull/60459/hovercard">Pull request 60459</a></td>
+                        <td>ArcGIS, ESRI</td>
+                        <td>C++, Qt, Python</td>
+                        <td>"gis"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.rabbitmq.com/" rel="nofollow">RabbitMQ</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/rabbitmq.svg"><img
+                                    src="./images/rabbitmq.svg" alt="RabbitMQ logo" style="max-width: 100%;"></a></td>
+                        <td>Messagerie</td>
+                        <td>Agent d'échanges de messages</td>
+                        <td><a href="https://www.vmware.com/" rel="nofollow">VMware</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a> et <a
+                                href="https://spdx.org/licenses/MPL-2.0.html" rel="nofollow">MPL-2.0</a></td>
+                        <td>Moyens de développement, équipes métier</td>
+                        <td align="center">-</td>
+                        <td>REST, Apache ActiveMQ, IBM MQ</td>
+                        <td>Erlang</td>
+                        <td>"messagerie" "amqp" "asynchrone"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://robotframework.org/" rel="nofollow">Robot Framework</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/robotframework.png"><img
+                                    src="./images/robotframework.png" alt="RobotFramework logo"
+                                    style="max-width: 100%;"></a></td>
+                        <td>Tests automatisés</td>
+                        <td>Framework de test automatique pour concevoir et exécuter des tests de validation</td>
+                        <td><a href="https://robotframework.org/foundation" rel="nofollow">Robot Framework
+                                Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Développement, Infrastructure</td>
+                        <td align="center">-</td>
+                        <td>Cypress, Selenium, Playwright</td>
+                        <td>RobotFramework, Python</td>
+                        <td>"automatisation" "tests" "validation" "acceptation" "end2end"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.soapui.org" rel="nofollow">SoapUI</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/soapui.png"><img
+                                    src="./images/soapui.png" alt="SoapUI logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Tests</td>
+                        <td>Outil de tests de services Web</td>
+                        <td><a href="https://smartbear.com" rel="nofollow">SmartBear</a></td>
+                        <td><a href="https://spdx.org/licenses/EUPL-1.2.html" rel="nofollow">EUPL</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td></td>
+                        <td>Java</td>
+                        <td>"test" "non-régression" "soap"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.sonarsource.com/products/sonarqube" rel="nofollow">SonarQube</a> <a
+                                target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/sonarqube.png"><img
+                                    src="./images/sonarqube.png" alt="SonarQube logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>SAST</td>
+                        <td>Analyse statique de code source</td>
+                        <td><a href="https://www.sonarsource.com/" rel="nofollow">SonarSource</a></td>
+                        <td><a href="https://spdx.org/licenses/LGPL-3.0-only.html" rel="nofollow">LGPL-3.0-only</a>
+                        </td>
+                        <td>Moyens de développement</td>
+                        <td align="center">-</td>
+                        <td>Checkmarx</td>
+                        <td>Java</td>
+                        <td>"analyse statique" "qualité" "sécurité"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://spring.io/projects/spring-boot" rel="nofollow">Spring Boot</a> <a
+                                target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/spring-boot.svg"><img
+                                    src="./images/spring-boot.svg" alt="Spring Boot logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Framework Java</td>
+                        <td>Cadriciel d'applications autonomes Java</td>
+                        <td><a href="https://www.vmware.com/" rel="nofollow">VMware</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Développement</td>
+                        <td align="center">-</td>
+                        <td>Quarkus, NodeJS</td>
+                        <td>Java</td>
+                        <td>"framework" "java" "injection de dépendances"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://tomcat.apache.org" rel="nofollow">Tomcat</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/apache-tomcat.svg"><img
+                                    src="./images/apache-tomcat.svg" alt="tomcat logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Serveur d'applications</td>
+                        <td>Serveur applicatif pour applications Web en Java</td>
+                        <td><a href="https://www.apache.org" rel="nofollow">Apache Software Foundation</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Intégration</td>
+                        <td align="center">-</td>
+                        <td>JBoss, Spring Boot</td>
+                        <td>Java</td>
+                        <td>"serveur d'applications" "java"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/cloudfoundry/uaa">UAA</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/cloudfoundry.png"><img
+                                    src="./images/cloudfoundry.png" alt="CloudFoundry logo"
+                                    style="max-width: 100%;"></a></td>
+                        <td>Gestion des autorisations</td>
+                        <td>Serveur d'autorisations</td>
+                        <td><a href="https://www.cloudfoundry.org/" rel="nofollow">Cloud Foundry</a></td>
+                        <td><a href="https://spdx.org/licenses/Apache-2.0.html" rel="nofollow">Apache-2.0</a></td>
+                        <td>Moyens de développement, équipes métier</td>
+                        <td align="center">-</td>
+                        <td></td>
+                        <td>Java</td>
+                        <td>"sécurité" "oauth"</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.videolan.org/" rel="nofollow">VLC</a> <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/vlc.png"><img
+                                    src="./images/vlc.png" alt="vlc logo" style="max-width: 100%;"></a>
+                        </td>
+                        <td>Lecteur de média</td>
+                        <td>Lecteur multimédia video, audio...</td>
+                        <td><a href="https://www.videolan.org/" rel="nofollow">VideoLAN</a></td>
+                        <td><a href="https://spdx.org/licenses/GPL-2.0-only.html" rel="nofollow">GPL-2.0-only</a>,
+                            <a href="https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                                rel="nofollow">LGPL-2.1-or-later</a> , et autres open source
+                        </td>
+                        <td>Poste de travail</td>
+                        <td align="center">-</td>
+                        <td></td>
+                        <td>C, C++, Obj-C, Asm, Rust</td>
+                        <td>"media" "video" "audio" "lecteur"</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
         </div>
     </foreignObject>
 </svg>
