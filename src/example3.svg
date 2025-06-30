@@ -6,7 +6,46 @@
                 color: red;
             }
             </style>
-            <h1>HELLO WORLD!</h1>
+			<table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Éditeur</th>
+                        <th>Licence
+                            <img src="./images/spnx.svg" alt=""/>
+                        </th>
+                        <th>Équipes installatrices</th>
+                        <th>Contributions de l'État</th>
+                        <th>Solutions alternatives (1)</th>
+                        <th>Langage de programmation</th>
+                        <th>Mots-clés</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://www.7-zip.org/" rel="nofollow">7-Zip</a>
+                            <a target="_blank" rel="noopener noreferrer"
+                                href="/republique-et-canton-de-geneve/catalogue-solutions-open-source/blob/main/media/7-Zip.png">
+                                <img src="./images/7-Zip.png" alt="7-zip logo" style="max-width: 100%;"/>
+                            </a>
+                        </td>
+                        <td>Archivage</td>
+                        <td>Logiciel d'archivage et compression de données</td>
+                        <td><a href="https://www.7-zip.org/" rel="nofollow">Igor Pavlov</a></td>
+                        <td><a href="https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                                rel="nofollow">LGPL-2.1-or-later</a>
+                        </td>
+                        <td>Toutes</td>
+                        <td align="center">-</td>
+                        <td>WinZIP, WinRAR...</td>
+                        <td>C, C++, Assembleur</td>
+                        <td>"archivage" "compression" "zip" "rar"</td>
+                    </tr>
+				</tbody>
+			</table>
         </div>
     </foreignObject>
 </svg>
