@@ -5,7 +5,7 @@ est présentée
 [dans ce tableau](./src/catalogue.html).
 
 <div>
-    <img src="./src/example2.svg" width="1170" height=" 3890.69" alt="css-in-readme">
+    <img src="./src/example2.svg" width="100%" height="100%" alt="css-in-readme">
 </div>
 
 <div>
