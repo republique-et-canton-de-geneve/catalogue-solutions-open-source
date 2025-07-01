@@ -86,9 +86,6 @@ em {
         margin-bottom: 2rem;
     }
 
-    .email-align {
-        text-align: left !important;
-    }
 
     h1 {
         font-size: 2.5rem;
@@ -102,6 +99,7 @@ em {
         margin-right: 0;
         margin-left: 0;
         border-spacing: 15px;
+    }
     }
 
     .table-container {
@@ -118,37 +116,10 @@ em {
     .is-table-row::before, .is-table-row::after {
         display: none;
     }
-}
 
-.button-bar {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
-.email-align, .lang-align {
-    text-align: right;
-}
 
-.margin-top-large {
-    margin-top: 30px;
-}
 
-.margin-bottom-large {
-    margin-bottom: 30px;
-}
-
-.repo-image {
-    text-align: center;
-}
-
-.repo-image img {
-    max-width: 100%;
-}
-
-.repo-box {
-    padding: 1px 10px 10px;
-}
 table img {
     width: 1px;
 }
