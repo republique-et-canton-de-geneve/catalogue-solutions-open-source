@@ -1,6 +1,5 @@
 <svg fill="none" width="1170" height="3890.69" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
 
 
@@ -118,8 +117,6 @@ em {
     }
 
 
-
-
 table img {
     width: 1px;
 }
@@ -169,8 +166,7 @@ iframe {
   height: 3890.69px;
 }
             </style>
-             <div class="row">
-        <div class="box col-xs-12">
+
             <table>
                 <thead>
                     <tr>
@@ -279,9 +275,6 @@ iframe {
                     </tr>
                 </tbody>
             </table>
-        </div>
-    </div>
 
-        </div>
     </foreignObject>
 </svg>
