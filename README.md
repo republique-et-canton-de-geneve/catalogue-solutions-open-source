@@ -1,11 +1,19 @@
 # Catalogue des solutions open source utilisées
 
-La liste (en construction) des solutions open source utilisées par l'Etat
-est présentée
-[dans ce tableau](./src/catalogue.html).
+Ce projet sert à donner un tableau des solutions open source utilisées à l'État.
 
-<div xmlns="http://www.w3.org/1999/xhtml">
+## Affichage
 
-<div>
-    <img src="./src/example2.svg" width="100%" height="100%" alt="css-in-readme">
-</div>
+Ce tableau est affiché au bas de la
+[page github.io de l'État](https://republique-et-canton-de-geneve.github.io).
+
+## Modification
+
+Pour enrichir ce tableau :
+* Faire un fork de ce projet Git
+* Modifier le tableau : fichier docs/catalogue.html, répertoire docs/images
+* Faire une pull request
+
+Alternativement, fournir à l'équipe des Moyens de développement, via une fiche Jira,
+les informations à ajouter au tableau.
+L'équipe se chargera de les insérer.
