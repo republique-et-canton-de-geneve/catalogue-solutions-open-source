@@ -1,3 +1,9 @@
+body {
+overflow-x: hidden;  /* interdit scroll horizontal */
+  overflow-y: auto;    /* autorise scroll vertical */
+}
+
+
 h1 {
     font-size: 3rem;
     line-height: 100%;
